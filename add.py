@@ -2,7 +2,7 @@
 def add(num1, num2):
     result = num1+num2
     print(result)
-    
+
 def ask ():
     print("Input first number:")
     num1 =int(input())
@@ -10,6 +10,5 @@ def ask ():
     num2 =int(input())
     add(num1, num2)
 
-
-
+ask()
   
