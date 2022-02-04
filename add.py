@@ -2,11 +2,13 @@
 def add(num1, num2):
     result = num1+num2
     print(result)
-print("Input first number:")
-num1 =int(input())
-print("Input Second number:")
-num2 =int(input())2
-add(num1, num2)
+    
+def ask ():
+    print("Input first number:")
+    num1 =int(input())
+    print("Input Second number:")
+    num2 =int(input())
+    add(num1, num2)
 
 
 
